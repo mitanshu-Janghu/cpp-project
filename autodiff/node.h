@@ -43,3 +43,15 @@ public:
     ReLUNode(Node* x);
     void backward() override;
 };
+
+class LogNode : public Node {
+public:
+    LogNode(Node* x);
+    void backward() override;
+};
+
+class ExpNode : public Node {
+public:
+    ExpNode(Node* x);
+    void backward() override;
+};

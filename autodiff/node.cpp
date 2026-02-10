@@ -1,5 +1,7 @@
 #include "node.h"
 #include <cassert>
+#include <cmath>
+
 
 // ---------- BASE ----------
 
@@ -102,3 +104,46 @@ void ReLUNode::backward() {
             (parents[0]->value.data[i] > 0) ? grad.data[i] : 0.0f;
     }
 }
+
+// ---------------- LogNode ----------------
+LogNode::LogNode(Node* x)
+    : Node(Tensor(x->value.shape))
+{
+    parents.push_back(x);
+
+    // Forward pass: log(x)
+    for (int i = 0; i < x->value.size(); ++i) {
+        value.data[i] = std::log(x->value.data[i]);
+    }
+}
+
+void LogNode::backward() {
+    Node* x = parents[0];
+
+    // d/dx log(x) = 1 / x
+    for (int i = 0; i < x->value.size(); ++i) {
+        x->grad.data[i] += grad.data[i] / x->value.data[i];
+    }
+}
+
+// ---------------- ExpNode ----------------
+ExpNode::ExpNode(Node* x)
+    : Node(Tensor(x->value.shape))
+{
+    parents.push_back(x);
+
+    // Forward: exp(x)
+    for (int i = 0; i < x->value.size(); ++i) {
+        value.data[i] = std::exp(x->value.data[i]);
+    }
+}
+
+void ExpNode::backward() {
+    Node* x = parents[0];
+
+    // d/dx exp(x) = exp(x)
+    for (int i = 0; i < x->value.size(); ++i) {
+        x->grad.data[i] += grad.data[i] * value.data[i];
+    }
+}
+

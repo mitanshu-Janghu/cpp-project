@@ -1,4 +1,6 @@
-C:/Users/Kunal/OneDrive/Desktop/GOD_Project/build/CMakeFiles/test_adam.dir
+C:/Users/Kunal/OneDrive/Desktop/GOD_Project/build/CMakeFiles/test_bce.dir
+C:/Users/Kunal/OneDrive/Desktop/GOD_Project/build/CMakeFiles/test_log.dir
+C:/Users/Kunal/OneDrive/Desktop/GOD_Project/build/CMakeFiles/test_softmax_ce.dir
 C:/Users/Kunal/OneDrive/Desktop/GOD_Project/build/CMakeFiles/ALL_BUILD.dir
 C:/Users/Kunal/OneDrive/Desktop/GOD_Project/build/CMakeFiles/ZERO_CHECK.dir
 C:/Users/Kunal/OneDrive/Desktop/GOD_Project/build/tensor/CMakeFiles/tensor.dir

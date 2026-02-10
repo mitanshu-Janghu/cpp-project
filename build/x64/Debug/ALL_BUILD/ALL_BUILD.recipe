@@ -5,7 +5,13 @@
       <FullPath>C:\Users\Kunal\OneDrive\Desktop\GOD_Project\build\x64\Debug\ZERO_CHECK</FullPath>
     </ProjectOutput>
     <ProjectOutput>
-      <FullPath>C:\Users\Kunal\OneDrive\Desktop\GOD_Project\build\Debug\test_adam.exe</FullPath>
+      <FullPath>C:\Users\Kunal\OneDrive\Desktop\GOD_Project\build\Debug\test_bce.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\Kunal\OneDrive\Desktop\GOD_Project\build\Debug\test_log.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\Kunal\OneDrive\Desktop\GOD_Project\build\Debug\test_softmax_ce.exe</FullPath>
     </ProjectOutput>
     <ProjectOutput>
       <FullPath>C:\Users\Kunal\OneDrive\Desktop\GOD_Project\build\x64\Debug\ALL_BUILD</FullPath>

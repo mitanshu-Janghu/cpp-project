@@ -186,9 +186,17 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <Project>{2439A3ED-9714-35A7-963D-C8A79A4D3EE8}</Project>
       <Name>tensor</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\Kunal\OneDrive\Desktop\GOD_Project\build\test_adam.vcxproj">
-      <Project>{BAA87AD3-1895-3741-8A28-47C85744C507}</Project>
-      <Name>test_adam</Name>
+    <ProjectReference Include="C:\Users\Kunal\OneDrive\Desktop\GOD_Project\build\test_bce.vcxproj">
+      <Project>{78A6F10B-F44C-3BBA-9CCB-C7FDA49D2254}</Project>
+      <Name>test_bce</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Kunal\OneDrive\Desktop\GOD_Project\build\test_log.vcxproj">
+      <Project>{CCD2E199-9807-31B5-B774-7E7EE6B89C3E}</Project>
+      <Name>test_log</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Kunal\OneDrive\Desktop\GOD_Project\build\test_softmax_ce.vcxproj">
+      <Project>{5EBE17C0-D628-3F1E-8FC1-E587A467AA10}</Project>
+      <Name>test_softmax_ce</Name>
     </ProjectReference>
     <ProjectReference Include="C:\Users\Kunal\OneDrive\Desktop\GOD_Project\build\trainer\trainer.vcxproj">
       <Project>{EA99D047-130A-3D28-B9D5-B2E8E74D49BC}</Project>

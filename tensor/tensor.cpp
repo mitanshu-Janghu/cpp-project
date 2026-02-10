@@ -32,7 +32,7 @@ Tensor::~Tensor() {
 }
 
 int Tensor::size() const {
-    int total = 1;
+    int total = 0;
     for (int d : shape) total *= d;
     return total;
 }

@@ -1,0 +1,12 @@
+{
+	"InstallScripts" : 
+	[
+		"C:/Users/Kunal/OneDrive/Desktop/GOD_Project/build/cmake_install.cmake",
+		"C:/Users/Kunal/OneDrive/Desktop/GOD_Project/build/tensor/cmake_install.cmake",
+		"C:/Users/Kunal/OneDrive/Desktop/GOD_Project/build/autodiff/cmake_install.cmake",
+		"C:/Users/Kunal/OneDrive/Desktop/GOD_Project/build/layers/cmake_install.cmake",
+		"C:/Users/Kunal/OneDrive/Desktop/GOD_Project/build/trainer/cmake_install.cmake",
+		"C:/Users/Kunal/OneDrive/Desktop/GOD_Project/build/engine/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

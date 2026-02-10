@@ -1,0 +1,8 @@
+C:/Users/Kunal/OneDrive/Desktop/GOD_Project/build/CMakeFiles/test_adam.dir
+C:/Users/Kunal/OneDrive/Desktop/GOD_Project/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/Kunal/OneDrive/Desktop/GOD_Project/build/CMakeFiles/ZERO_CHECK.dir
+C:/Users/Kunal/OneDrive/Desktop/GOD_Project/build/tensor/CMakeFiles/tensor.dir
+C:/Users/Kunal/OneDrive/Desktop/GOD_Project/build/autodiff/CMakeFiles/autodiff.dir
+C:/Users/Kunal/OneDrive/Desktop/GOD_Project/build/layers/CMakeFiles/layers.dir
+C:/Users/Kunal/OneDrive/Desktop/GOD_Project/build/trainer/CMakeFiles/trainer.dir
+C:/Users/Kunal/OneDrive/Desktop/GOD_Project/build/engine/CMakeFiles/engine.dir

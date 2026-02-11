@@ -22,7 +22,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{EA99D047-130A-3D28-B9D5-B2E8E74D49BC}</ProjectGuid>
+    <ProjectGuid>{CFECEA49-B8BB-3B1D-AF01-CF7BF11DEF40}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <WindowsTargetPlatformVersion>10.0.26100.0</WindowsTargetPlatformVersion>
     <Platform>x64</Platform>
@@ -59,26 +59,26 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
     <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Kunal\OneDrive\Desktop\GOD_Project\build\trainer\Debug\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Kunal\OneDrive\Desktop\GOD_Project\cpp-project\build\trainer\Debug\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">trainer.dir\Debug\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">trainer</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Kunal\OneDrive\Desktop\GOD_Project\build\trainer\Release\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Kunal\OneDrive\Desktop\GOD_Project\cpp-project\build\trainer\Release\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">trainer.dir\Release\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">trainer</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Kunal\OneDrive\Desktop\GOD_Project\build\trainer\MinSizeRel\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Kunal\OneDrive\Desktop\GOD_Project\cpp-project\build\trainer\MinSizeRel\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">trainer.dir\MinSizeRel\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">trainer</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Kunal\OneDrive\Desktop\GOD_Project\build\trainer\RelWithDebInfo\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Kunal\OneDrive\Desktop\GOD_Project\cpp-project\build\trainer\RelWithDebInfo\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">trainer.dir\RelWithDebInfo\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">trainer</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\Kunal\OneDrive\Desktop\GOD_Project\trainer;C:\Users\Kunal\OneDrive\Desktop\GOD_Project\tensor;C:\Users\Kunal\OneDrive\Desktop\GOD_Project\autodiff;C:\Users\Kunal\OneDrive\Desktop\GOD_Project\layers;C:\Users\Kunal\OneDrive\Desktop\GOD_Project\engine;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Kunal\OneDrive\Desktop\GOD_Project\cpp-project\trainer;C:\Users\Kunal\OneDrive\Desktop\GOD_Project\cpp-project\tensor;C:\Users\Kunal\OneDrive\Desktop\GOD_Project\cpp-project\autodiff;C:\Users\Kunal\OneDrive\Desktop\GOD_Project\cpp-project\layers;C:\Users\Kunal\OneDrive\Desktop\GOD_Project\cpp-project\engine;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <BufferSecurityCheck></BufferSecurityCheck>
@@ -104,10 +104,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\Kunal\OneDrive\Desktop\GOD_Project\trainer;C:\Users\Kunal\OneDrive\Desktop\GOD_Project\tensor;C:\Users\Kunal\OneDrive\Desktop\GOD_Project\autodiff;C:\Users\Kunal\OneDrive\Desktop\GOD_Project\layers;C:\Users\Kunal\OneDrive\Desktop\GOD_Project\engine;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Kunal\OneDrive\Desktop\GOD_Project\cpp-project\trainer;C:\Users\Kunal\OneDrive\Desktop\GOD_Project\cpp-project\tensor;C:\Users\Kunal\OneDrive\Desktop\GOD_Project\cpp-project\autodiff;C:\Users\Kunal\OneDrive\Desktop\GOD_Project\cpp-project\layers;C:\Users\Kunal\OneDrive\Desktop\GOD_Project\cpp-project\engine;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\Kunal\OneDrive\Desktop\GOD_Project\trainer;C:\Users\Kunal\OneDrive\Desktop\GOD_Project\tensor;C:\Users\Kunal\OneDrive\Desktop\GOD_Project\autodiff;C:\Users\Kunal\OneDrive\Desktop\GOD_Project\layers;C:\Users\Kunal\OneDrive\Desktop\GOD_Project\engine;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Kunal\OneDrive\Desktop\GOD_Project\cpp-project\trainer;C:\Users\Kunal\OneDrive\Desktop\GOD_Project\cpp-project\tensor;C:\Users\Kunal\OneDrive\Desktop\GOD_Project\cpp-project\autodiff;C:\Users\Kunal\OneDrive\Desktop\GOD_Project\cpp-project\layers;C:\Users\Kunal\OneDrive\Desktop\GOD_Project\cpp-project\engine;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -120,7 +120,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\Kunal\OneDrive\Desktop\GOD_Project\trainer;C:\Users\Kunal\OneDrive\Desktop\GOD_Project\tensor;C:\Users\Kunal\OneDrive\Desktop\GOD_Project\autodiff;C:\Users\Kunal\OneDrive\Desktop\GOD_Project\layers;C:\Users\Kunal\OneDrive\Desktop\GOD_Project\engine;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Kunal\OneDrive\Desktop\GOD_Project\cpp-project\trainer;C:\Users\Kunal\OneDrive\Desktop\GOD_Project\cpp-project\tensor;C:\Users\Kunal\OneDrive\Desktop\GOD_Project\cpp-project\autodiff;C:\Users\Kunal\OneDrive\Desktop\GOD_Project\cpp-project\layers;C:\Users\Kunal\OneDrive\Desktop\GOD_Project\cpp-project\engine;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>Default</BasicRuntimeChecks>
       <BufferSecurityCheck></BufferSecurityCheck>
@@ -147,10 +147,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\Kunal\OneDrive\Desktop\GOD_Project\trainer;C:\Users\Kunal\OneDrive\Desktop\GOD_Project\tensor;C:\Users\Kunal\OneDrive\Desktop\GOD_Project\autodiff;C:\Users\Kunal\OneDrive\Desktop\GOD_Project\layers;C:\Users\Kunal\OneDrive\Desktop\GOD_Project\engine;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Kunal\OneDrive\Desktop\GOD_Project\cpp-project\trainer;C:\Users\Kunal\OneDrive\Desktop\GOD_Project\cpp-project\tensor;C:\Users\Kunal\OneDrive\Desktop\GOD_Project\cpp-project\autodiff;C:\Users\Kunal\OneDrive\Desktop\GOD_Project\cpp-project\layers;C:\Users\Kunal\OneDrive\Desktop\GOD_Project\cpp-project\engine;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\Kunal\OneDrive\Desktop\GOD_Project\trainer;C:\Users\Kunal\OneDrive\Desktop\GOD_Project\tensor;C:\Users\Kunal\OneDrive\Desktop\GOD_Project\autodiff;C:\Users\Kunal\OneDrive\Desktop\GOD_Project\layers;C:\Users\Kunal\OneDrive\Desktop\GOD_Project\engine;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Kunal\OneDrive\Desktop\GOD_Project\cpp-project\trainer;C:\Users\Kunal\OneDrive\Desktop\GOD_Project\cpp-project\tensor;C:\Users\Kunal\OneDrive\Desktop\GOD_Project\cpp-project\autodiff;C:\Users\Kunal\OneDrive\Desktop\GOD_Project\cpp-project\layers;C:\Users\Kunal\OneDrive\Desktop\GOD_Project\cpp-project\engine;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -163,7 +163,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\Kunal\OneDrive\Desktop\GOD_Project\trainer;C:\Users\Kunal\OneDrive\Desktop\GOD_Project\tensor;C:\Users\Kunal\OneDrive\Desktop\GOD_Project\autodiff;C:\Users\Kunal\OneDrive\Desktop\GOD_Project\layers;C:\Users\Kunal\OneDrive\Desktop\GOD_Project\engine;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Kunal\OneDrive\Desktop\GOD_Project\cpp-project\trainer;C:\Users\Kunal\OneDrive\Desktop\GOD_Project\cpp-project\tensor;C:\Users\Kunal\OneDrive\Desktop\GOD_Project\cpp-project\autodiff;C:\Users\Kunal\OneDrive\Desktop\GOD_Project\cpp-project\layers;C:\Users\Kunal\OneDrive\Desktop\GOD_Project\cpp-project\engine;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>Default</BasicRuntimeChecks>
       <BufferSecurityCheck></BufferSecurityCheck>
@@ -190,10 +190,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\Kunal\OneDrive\Desktop\GOD_Project\trainer;C:\Users\Kunal\OneDrive\Desktop\GOD_Project\tensor;C:\Users\Kunal\OneDrive\Desktop\GOD_Project\autodiff;C:\Users\Kunal\OneDrive\Desktop\GOD_Project\layers;C:\Users\Kunal\OneDrive\Desktop\GOD_Project\engine;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Kunal\OneDrive\Desktop\GOD_Project\cpp-project\trainer;C:\Users\Kunal\OneDrive\Desktop\GOD_Project\cpp-project\tensor;C:\Users\Kunal\OneDrive\Desktop\GOD_Project\cpp-project\autodiff;C:\Users\Kunal\OneDrive\Desktop\GOD_Project\cpp-project\layers;C:\Users\Kunal\OneDrive\Desktop\GOD_Project\cpp-project\engine;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\Kunal\OneDrive\Desktop\GOD_Project\trainer;C:\Users\Kunal\OneDrive\Desktop\GOD_Project\tensor;C:\Users\Kunal\OneDrive\Desktop\GOD_Project\autodiff;C:\Users\Kunal\OneDrive\Desktop\GOD_Project\layers;C:\Users\Kunal\OneDrive\Desktop\GOD_Project\engine;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Kunal\OneDrive\Desktop\GOD_Project\cpp-project\trainer;C:\Users\Kunal\OneDrive\Desktop\GOD_Project\cpp-project\tensor;C:\Users\Kunal\OneDrive\Desktop\GOD_Project\cpp-project\autodiff;C:\Users\Kunal\OneDrive\Desktop\GOD_Project\cpp-project\layers;C:\Users\Kunal\OneDrive\Desktop\GOD_Project\cpp-project\engine;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -206,7 +206,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\Kunal\OneDrive\Desktop\GOD_Project\trainer;C:\Users\Kunal\OneDrive\Desktop\GOD_Project\tensor;C:\Users\Kunal\OneDrive\Desktop\GOD_Project\autodiff;C:\Users\Kunal\OneDrive\Desktop\GOD_Project\layers;C:\Users\Kunal\OneDrive\Desktop\GOD_Project\engine;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Kunal\OneDrive\Desktop\GOD_Project\cpp-project\trainer;C:\Users\Kunal\OneDrive\Desktop\GOD_Project\cpp-project\tensor;C:\Users\Kunal\OneDrive\Desktop\GOD_Project\cpp-project\autodiff;C:\Users\Kunal\OneDrive\Desktop\GOD_Project\cpp-project\layers;C:\Users\Kunal\OneDrive\Desktop\GOD_Project\cpp-project\engine;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>Default</BasicRuntimeChecks>
       <BufferSecurityCheck></BufferSecurityCheck>
@@ -232,10 +232,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\Kunal\OneDrive\Desktop\GOD_Project\trainer;C:\Users\Kunal\OneDrive\Desktop\GOD_Project\tensor;C:\Users\Kunal\OneDrive\Desktop\GOD_Project\autodiff;C:\Users\Kunal\OneDrive\Desktop\GOD_Project\layers;C:\Users\Kunal\OneDrive\Desktop\GOD_Project\engine;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Kunal\OneDrive\Desktop\GOD_Project\cpp-project\trainer;C:\Users\Kunal\OneDrive\Desktop\GOD_Project\cpp-project\tensor;C:\Users\Kunal\OneDrive\Desktop\GOD_Project\cpp-project\autodiff;C:\Users\Kunal\OneDrive\Desktop\GOD_Project\cpp-project\layers;C:\Users\Kunal\OneDrive\Desktop\GOD_Project\cpp-project\engine;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\Kunal\OneDrive\Desktop\GOD_Project\trainer;C:\Users\Kunal\OneDrive\Desktop\GOD_Project\tensor;C:\Users\Kunal\OneDrive\Desktop\GOD_Project\autodiff;C:\Users\Kunal\OneDrive\Desktop\GOD_Project\layers;C:\Users\Kunal\OneDrive\Desktop\GOD_Project\engine;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Kunal\OneDrive\Desktop\GOD_Project\cpp-project\trainer;C:\Users\Kunal\OneDrive\Desktop\GOD_Project\cpp-project\tensor;C:\Users\Kunal\OneDrive\Desktop\GOD_Project\cpp-project\autodiff;C:\Users\Kunal\OneDrive\Desktop\GOD_Project\cpp-project\layers;C:\Users\Kunal\OneDrive\Desktop\GOD_Project\cpp-project\engine;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -247,11 +247,11 @@
     </Lib>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\Kunal\OneDrive\Desktop\GOD_Project\trainer\CMakeLists.txt">
+    <CustomBuild Include="C:\Users\Kunal\OneDrive\Desktop\GOD_Project\cpp-project\trainer\CMakeLists.txt">
       <UseUtf8Encoding>Always</UseUtf8Encoding>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/Kunal/OneDrive/Desktop/GOD_Project/trainer/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/Kunal/OneDrive/Desktop/GOD_Project/cpp-project/trainer/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Kunal/OneDrive/Desktop/GOD_Project -BC:/Users/Kunal/OneDrive/Desktop/GOD_Project/build --check-stamp-file C:/Users/Kunal/OneDrive/Desktop/GOD_Project/build/trainer/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Kunal/OneDrive/Desktop/GOD_Project/cpp-project -BC:/Users/Kunal/OneDrive/Desktop/GOD_Project/cpp-project/build --check-stamp-file C:/Users/Kunal/OneDrive/Desktop/GOD_Project/cpp-project/build/trainer/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -260,11 +260,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Kunal\OneDrive\Desktop\GOD_Project\build\trainer\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Kunal\OneDrive\Desktop\GOD_Project\cpp-project\build\trainer\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/Kunal/OneDrive/Desktop/GOD_Project/trainer/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/Kunal/OneDrive/Desktop/GOD_Project/cpp-project/trainer/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Kunal/OneDrive/Desktop/GOD_Project -BC:/Users/Kunal/OneDrive/Desktop/GOD_Project/build --check-stamp-file C:/Users/Kunal/OneDrive/Desktop/GOD_Project/build/trainer/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Kunal/OneDrive/Desktop/GOD_Project/cpp-project -BC:/Users/Kunal/OneDrive/Desktop/GOD_Project/cpp-project/build --check-stamp-file C:/Users/Kunal/OneDrive/Desktop/GOD_Project/cpp-project/build/trainer/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -273,11 +273,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Kunal\OneDrive\Desktop\GOD_Project\build\trainer\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Kunal\OneDrive\Desktop\GOD_Project\cpp-project\build\trainer\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/Kunal/OneDrive/Desktop/GOD_Project/trainer/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/Kunal/OneDrive/Desktop/GOD_Project/cpp-project/trainer/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Kunal/OneDrive/Desktop/GOD_Project -BC:/Users/Kunal/OneDrive/Desktop/GOD_Project/build --check-stamp-file C:/Users/Kunal/OneDrive/Desktop/GOD_Project/build/trainer/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Kunal/OneDrive/Desktop/GOD_Project/cpp-project -BC:/Users/Kunal/OneDrive/Desktop/GOD_Project/cpp-project/build --check-stamp-file C:/Users/Kunal/OneDrive/Desktop/GOD_Project/cpp-project/build/trainer/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -286,11 +286,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Kunal\OneDrive\Desktop\GOD_Project\build\trainer\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Kunal\OneDrive\Desktop\GOD_Project\cpp-project\build\trainer\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/Kunal/OneDrive/Desktop/GOD_Project/trainer/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/Kunal/OneDrive/Desktop/GOD_Project/cpp-project/trainer/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Kunal/OneDrive/Desktop/GOD_Project -BC:/Users/Kunal/OneDrive/Desktop/GOD_Project/build --check-stamp-file C:/Users/Kunal/OneDrive/Desktop/GOD_Project/build/trainer/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Kunal/OneDrive/Desktop/GOD_Project/cpp-project -BC:/Users/Kunal/OneDrive/Desktop/GOD_Project/cpp-project/build --check-stamp-file C:/Users/Kunal/OneDrive/Desktop/GOD_Project/cpp-project/build/trainer/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -299,19 +299,19 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Kunal\OneDrive\Desktop\GOD_Project\build\trainer\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Kunal\OneDrive\Desktop\GOD_Project\cpp-project\build\trainer\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="C:\Users\Kunal\OneDrive\Desktop\GOD_Project\trainer\loss.cpp" />
-    <ClCompile Include="C:\Users\Kunal\OneDrive\Desktop\GOD_Project\trainer\optimizer.cpp" />
-    <ClCompile Include="C:\Users\Kunal\OneDrive\Desktop\GOD_Project\trainer\trainer.cpp" />
+    <ClCompile Include="C:\Users\Kunal\OneDrive\Desktop\GOD_Project\cpp-project\trainer\loss.cpp" />
+    <ClCompile Include="C:\Users\Kunal\OneDrive\Desktop\GOD_Project\cpp-project\trainer\optimizer.cpp" />
+    <ClCompile Include="C:\Users\Kunal\OneDrive\Desktop\GOD_Project\cpp-project\trainer\trainer.cpp" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
-    <ProjectReference Include="C:\Users\Kunal\OneDrive\Desktop\GOD_Project\build\engine\engine.vcxproj">
-      <Project>{92F01E0A-9990-340C-8FC1-F480DB887D4B}</Project>
+    <ProjectReference Include="C:\Users\Kunal\OneDrive\Desktop\GOD_Project\cpp-project\build\engine\engine.vcxproj">
+      <Project>{9F56E633-8469-36A2-84E8-CF27DB2E9707}</Project>
       <Name>engine</Name>
     </ProjectReference>
   </ItemGroup>

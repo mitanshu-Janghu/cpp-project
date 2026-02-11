@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/Kunal/OneDrive/Desktop/GOD_Project
+# Install script for directory: C:/Users/Kunal/OneDrive/Desktop/GOD_Project/cpp-project
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,33 +34,33 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/Kunal/OneDrive/Desktop/GOD_Project/build/tensor/cmake_install.cmake")
+  include("C:/Users/Kunal/OneDrive/Desktop/GOD_Project/cpp-project/build/tensor/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/Kunal/OneDrive/Desktop/GOD_Project/build/autodiff/cmake_install.cmake")
+  include("C:/Users/Kunal/OneDrive/Desktop/GOD_Project/cpp-project/build/autodiff/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/Kunal/OneDrive/Desktop/GOD_Project/build/layers/cmake_install.cmake")
+  include("C:/Users/Kunal/OneDrive/Desktop/GOD_Project/cpp-project/build/layers/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/Kunal/OneDrive/Desktop/GOD_Project/build/trainer/cmake_install.cmake")
+  include("C:/Users/Kunal/OneDrive/Desktop/GOD_Project/cpp-project/build/trainer/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/Kunal/OneDrive/Desktop/GOD_Project/build/engine/cmake_install.cmake")
+  include("C:/Users/Kunal/OneDrive/Desktop/GOD_Project/cpp-project/build/engine/cmake_install.cmake")
 endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "C:/Users/Kunal/OneDrive/Desktop/GOD_Project/build/install_local_manifest.txt"
+  file(WRITE "C:/Users/Kunal/OneDrive/Desktop/GOD_Project/cpp-project/build/install_local_manifest.txt"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()
 if(CMAKE_INSTALL_COMPONENT)
@@ -76,6 +76,6 @@ else()
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "C:/Users/Kunal/OneDrive/Desktop/GOD_Project/build/${CMAKE_INSTALL_MANIFEST}"
+  file(WRITE "C:/Users/Kunal/OneDrive/Desktop/GOD_Project/cpp-project/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

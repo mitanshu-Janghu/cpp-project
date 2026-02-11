@@ -1,6 +1,6 @@
-^C:\USERS\KUNAL\ONEDRIVE\DESKTOP\GOD_PROJECT\BUILD\CMAKEFILES\C57BB82AC54EE1F78CE27DD9B43FFC41\GENERATE.STAMP.RULE
+^C:\USERS\KUNAL\ONEDRIVE\DESKTOP\GOD_PROJECT\CPP-PROJECT\BUILD\CMAKEFILES\A9DC3CA9862D382FFBA22BE5901FA731\GENERATE.STAMP.RULE
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Kunal/OneDrive/Desktop/GOD_Project -BC:/Users/Kunal/OneDrive/Desktop/GOD_Project/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/Kunal/OneDrive/Desktop/GOD_Project/build/GOD_Project.sln
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Kunal/OneDrive/Desktop/GOD_Project/cpp-project -BC:/Users/Kunal/OneDrive/Desktop/GOD_Project/cpp-project/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/Kunal/OneDrive/Desktop/GOD_Project/cpp-project/build/GOD_Project.sln
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone

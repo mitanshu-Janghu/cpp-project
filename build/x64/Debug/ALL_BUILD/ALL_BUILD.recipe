@@ -2,13 +2,23 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
-      <FullPath>C:\Users\Kunal\OneDrive\Desktop\GOD_Project\build\x64\Debug\ZERO_CHECK</FullPath>
+      <FullPath>C:\Users\Kunal\OneDrive\Desktop\GOD_Project\cpp-project\build\x64\Debug\ZERO_CHECK</FullPath>
     </ProjectOutput>
     <ProjectOutput>
+<<<<<<< Updated upstream
       <FullPath>C:\Users\Kunal\OneDrive\Desktop\GOD_Project\build\Debug\test_adam.exe</FullPath>
+=======
+      <FullPath>C:\Users\Kunal\OneDrive\Desktop\GOD_Project\cpp-project\build\Debug\test_bce.exe</FullPath>
     </ProjectOutput>
     <ProjectOutput>
-      <FullPath>C:\Users\Kunal\OneDrive\Desktop\GOD_Project\build\x64\Debug\ALL_BUILD</FullPath>
+      <FullPath>C:\Users\Kunal\OneDrive\Desktop\GOD_Project\cpp-project\build\Debug\test_log.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\Kunal\OneDrive\Desktop\GOD_Project\cpp-project\build\Debug\test_softmax_ce.exe</FullPath>
+>>>>>>> Stashed changes
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\Kunal\OneDrive\Desktop\GOD_Project\cpp-project\build\x64\Debug\ALL_BUILD</FullPath>
     </ProjectOutput>
   </ProjectOutputs>
   <ContentFiles />

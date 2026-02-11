@@ -1,6 +1,6 @@
-^C:\USERS\KUNAL\ONEDRIVE\DESKTOP\GOD_PROJECT\AUTODIFF\CMAKELISTS.TXT
+^C:\USERS\KUNAL\ONEDRIVE\DESKTOP\GOD_PROJECT\CPP-PROJECT\AUTODIFF\CMAKELISTS.TXT
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Kunal/OneDrive/Desktop/GOD_Project -BC:/Users/Kunal/OneDrive/Desktop/GOD_Project/build --check-stamp-file C:/Users/Kunal/OneDrive/Desktop/GOD_Project/build/autodiff/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Kunal/OneDrive/Desktop/GOD_Project/cpp-project -BC:/Users/Kunal/OneDrive/Desktop/GOD_Project/cpp-project/build --check-stamp-file C:/Users/Kunal/OneDrive/Desktop/GOD_Project/cpp-project/build/autodiff/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone

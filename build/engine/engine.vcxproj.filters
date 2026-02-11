@@ -1,22 +1,22 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="C:\Users\Kunal\OneDrive\Desktop\GOD_Project\engine\engine.cpp">
+    <ClCompile Include="C:\Users\Kunal\OneDrive\Desktop\GOD_Project\cpp-project\engine\engine.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Kunal\OneDrive\Desktop\GOD_Project\engine\ann_model.cpp">
+    <ClCompile Include="C:\Users\Kunal\OneDrive\Desktop\GOD_Project\cpp-project\engine\ann_model.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Kunal\OneDrive\Desktop\GOD_Project\engine\cnn_model.cpp">
+    <ClCompile Include="C:\Users\Kunal\OneDrive\Desktop\GOD_Project\cpp-project\engine\cnn_model.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\Kunal\OneDrive\Desktop\GOD_Project\engine\CMakeLists.txt" />
+    <CustomBuild Include="C:\Users\Kunal\OneDrive\Desktop\GOD_Project\cpp-project\engine\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{26763719-CCC1-3F20-8154-736C6EA90B32}</UniqueIdentifier>
+      <UniqueIdentifier>{DED0558B-F6C7-3165-BD25-F4F45F437A38}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

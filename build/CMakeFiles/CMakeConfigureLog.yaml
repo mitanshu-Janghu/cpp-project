@@ -35,18 +35,6 @@ events:
     found: "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeCCompilerId.c.in"
     search_context:
       ENV{PATH}:
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX86\\x86"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\IDE\\VC\\VCPackages"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\IDE\\CommonExtensions\\Microsoft\\TestWindow"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\MSBuild\\Current\\bin\\Roslyn"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Team Tools\\DiagnosticsHub\\Collector"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\IDE\\Extensions\\Microsoft\\CodeCoverage.Console"
-        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.26100.0\\\\x86"
-        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\\\x86"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\\\MSBuild\\Current\\Bin\\amd64"
-        - "C:\\Windows\\Microsoft.NET\\Framework\\v4.0.30319"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\IDE\\"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\Tools\\"
         - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
         - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
@@ -84,18 +72,7 @@ events:
         - "C:\\Users\\Kunal\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\Users\\Kunal\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
         - "C:\\Users\\Kunal\\AppData\\Roaming\\npm"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\IDE\\VC\\Linux\\bin\\ConnectionManagerExe"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\vcpkg"
-      ENV{INCLUDE}:
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\include"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Auxiliary\\VS\\include"
-        - "C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.26100.0\\ucrt"
-        - "C:\\Program Files (x86)\\Windows Kits\\10\\\\include\\10.0.26100.0\\\\um"
-        - "C:\\Program Files (x86)\\Windows Kits\\10\\\\include\\10.0.26100.0\\\\shared"
-        - "C:\\Program Files (x86)\\Windows Kits\\10\\\\include\\10.0.26100.0\\\\winrt"
-        - "C:\\Program Files (x86)\\Windows Kits\\10\\\\include\\10.0.26100.0\\\\cppwinrt"
+        - "C:\\Users\\Kunal\\AppData\\Local\\GitHubDesktop\\bin"
   -
     kind: "message-v1"
     backtrace:
@@ -112,9 +89,9 @@ events:
       The output was:
       0
       MSBuild version 17.14.40+3e7442088 for .NET Framework
-      Build started 09-02-2026 22:39:15.
+      Build started 11-02-2026 12:52:46.
       
-      Project "C:\\Users\\Kunal\\OneDrive\\Desktop\\GOD_Project\\build\\CMakeFiles\\4.2.3\\CompilerIdC\\CompilerIdC.vcxproj" on node 1 (default targets).
+      Project "C:\\Users\\Kunal\\OneDrive\\Desktop\\GOD_Project\\cpp-project\\build\\CMakeFiles\\4.2.3\\CompilerIdC\\CompilerIdC.vcxproj" on node 1 (default targets).
       PrepareForBuild:
         Creating directory "Debug\\".
         Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
@@ -127,7 +104,7 @@ events:
         CMakeCCompilerId.c
       Link:
         C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
-        CompilerIdC.vcxproj -> C:\\Users\\Kunal\\OneDrive\\Desktop\\GOD_Project\\build\\CMakeFiles\\4.2.3\\CompilerIdC\\CompilerIdC.exe
+        CompilerIdC.vcxproj -> C:\\Users\\Kunal\\OneDrive\\Desktop\\GOD_Project\\cpp-project\\build\\CMakeFiles\\4.2.3\\CompilerIdC\\CompilerIdC.exe
       PostBuildEvent:
         for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
         :VCEnd
@@ -135,13 +112,13 @@ events:
       FinalizeBuildStatus:
         Deleting file "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
         Touching "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate".
-      Done Building Project "C:\\Users\\Kunal\\OneDrive\\Desktop\\GOD_Project\\build\\CMakeFiles\\4.2.3\\CompilerIdC\\CompilerIdC.vcxproj" (default targets).
+      Done Building Project "C:\\Users\\Kunal\\OneDrive\\Desktop\\GOD_Project\\cpp-project\\build\\CMakeFiles\\4.2.3\\CompilerIdC\\CompilerIdC.vcxproj" (default targets).
       
       Build succeeded.
           0 Warning(s)
           0 Error(s)
       
-      Time Elapsed 00:00:01.38
+      Time Elapsed 00:00:00.64
       
       
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
@@ -149,7 +126,7 @@ events:
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
       
       The C compiler identification is MSVC, found in:
-        C:/Users/Kunal/OneDrive/Desktop/GOD_Project/build/CMakeFiles/4.2.3/CompilerIdC/CompilerIdC.exe
+        C:/Users/Kunal/OneDrive/Desktop/GOD_Project/cpp-project/build/CMakeFiles/4.2.3/CompilerIdC/CompilerIdC.exe
       
   -
     kind: "find-v1"
@@ -174,18 +151,6 @@ events:
       - "link"
     candidate_directories:
       - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx86/x86/"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/VC/vcpackages/"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/CommonExtensions/Microsoft/TestWindow/"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/Roslyn/"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Team Tools/DiagnosticsHub/Collector/"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/"
-      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x86/"
-      - "C:/Program Files (x86)/Windows Kits/10/bin/x86/"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/"
-      - "C:/Windows/Microsoft.NET/Framework/v4.0.30319/"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/Tools/"
       - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
       - "C:/Program Files/Common Files/Oracle/Java/javapath/"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
@@ -219,27 +184,12 @@ events:
       - "C:/Program Files/CMake/bin/"
       - "C:/Program Files/Git/cmd/"
       - "C:/Users/Kunal/AppData/Roaming/npm/"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/vcpkg/"
+      - "C:/Users/Kunal/AppData/Local/GitHubDesktop/bin/"
     searched_directories:
       - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/link.com"
     found: "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/link.exe"
     search_context:
       ENV{PATH}:
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX86\\x86"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\IDE\\VC\\VCPackages"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\IDE\\CommonExtensions\\Microsoft\\TestWindow"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\MSBuild\\Current\\bin\\Roslyn"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Team Tools\\DiagnosticsHub\\Collector"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\IDE\\Extensions\\Microsoft\\CodeCoverage.Console"
-        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.26100.0\\\\x86"
-        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\\\x86"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\\\MSBuild\\Current\\Bin\\amd64"
-        - "C:\\Windows\\Microsoft.NET\\Framework\\v4.0.30319"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\IDE\\"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\Tools\\"
         - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
         - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
@@ -277,10 +227,7 @@ events:
         - "C:\\Users\\Kunal\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\Users\\Kunal\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
         - "C:\\Users\\Kunal\\AppData\\Roaming\\npm"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\IDE\\VC\\Linux\\bin\\ConnectionManagerExe"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\vcpkg"
+        - "C:\\Users\\Kunal\\AppData\\Local\\GitHubDesktop\\bin"
   -
     kind: "find-v1"
     backtrace:
@@ -304,18 +251,6 @@ events:
       - "lld-link"
     candidate_directories:
       - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx86/x86/"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/VC/vcpackages/"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/CommonExtensions/Microsoft/TestWindow/"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/Roslyn/"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Team Tools/DiagnosticsHub/Collector/"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/"
-      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x86/"
-      - "C:/Program Files (x86)/Windows Kits/10/bin/x86/"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/"
-      - "C:/Windows/Microsoft.NET/Framework/v4.0.30319/"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/Tools/"
       - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
       - "C:/Program Files/Common Files/Oracle/Java/javapath/"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
@@ -349,50 +284,11 @@ events:
       - "C:/Program Files/CMake/bin/"
       - "C:/Program Files/Git/cmd/"
       - "C:/Users/Kunal/AppData/Roaming/npm/"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/vcpkg/"
+      - "C:/Users/Kunal/AppData/Local/GitHubDesktop/bin/"
     searched_directories:
       - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lld-link.com"
       - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lld-link.exe"
       - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lld-link"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx86/x86/lld-link.com"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx86/x86/lld-link.exe"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx86/x86/lld-link"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/VC/vcpackages/lld-link.com"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/VC/vcpackages/lld-link.exe"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/VC/vcpackages/lld-link"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/CommonExtensions/Microsoft/TestWindow/lld-link.com"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/CommonExtensions/Microsoft/TestWindow/lld-link.exe"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/CommonExtensions/Microsoft/TestWindow/lld-link"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/Roslyn/lld-link.com"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/Roslyn/lld-link.exe"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/Roslyn/lld-link"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Team Tools/DiagnosticsHub/Collector/lld-link.com"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Team Tools/DiagnosticsHub/Collector/lld-link.exe"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Team Tools/DiagnosticsHub/Collector/lld-link"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/lld-link.com"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/lld-link.exe"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/lld-link"
-      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x86/lld-link.com"
-      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x86/lld-link.exe"
-      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x86/lld-link"
-      - "C:/Program Files (x86)/Windows Kits/10/bin/x86/lld-link.com"
-      - "C:/Program Files (x86)/Windows Kits/10/bin/x86/lld-link.exe"
-      - "C:/Program Files (x86)/Windows Kits/10/bin/x86/lld-link"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/lld-link.com"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/lld-link.exe"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/lld-link"
-      - "C:/Windows/Microsoft.NET/Framework/v4.0.30319/lld-link.com"
-      - "C:/Windows/Microsoft.NET/Framework/v4.0.30319/lld-link.exe"
-      - "C:/Windows/Microsoft.NET/Framework/v4.0.30319/lld-link"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/lld-link.com"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/lld-link.exe"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/lld-link"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/Tools/lld-link.com"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/Tools/lld-link.exe"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/Tools/lld-link"
       - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link.com"
       - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link.exe"
       - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link"
@@ -492,33 +388,12 @@ events:
       - "C:/Users/Kunal/AppData/Roaming/npm/lld-link.com"
       - "C:/Users/Kunal/AppData/Roaming/npm/lld-link.exe"
       - "C:/Users/Kunal/AppData/Roaming/npm/lld-link"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/lld-link.com"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/lld-link.exe"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/lld-link"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/lld-link.com"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/lld-link.exe"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/lld-link"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/lld-link.com"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/lld-link.exe"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/lld-link"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/vcpkg/lld-link.com"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/vcpkg/lld-link.exe"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/vcpkg/lld-link"
+      - "C:/Users/Kunal/AppData/Local/GitHubDesktop/bin/lld-link.com"
+      - "C:/Users/Kunal/AppData/Local/GitHubDesktop/bin/lld-link.exe"
+      - "C:/Users/Kunal/AppData/Local/GitHubDesktop/bin/lld-link"
     found: false
     search_context:
       ENV{PATH}:
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX86\\x86"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\IDE\\VC\\VCPackages"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\IDE\\CommonExtensions\\Microsoft\\TestWindow"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\MSBuild\\Current\\bin\\Roslyn"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Team Tools\\DiagnosticsHub\\Collector"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\IDE\\Extensions\\Microsoft\\CodeCoverage.Console"
-        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.26100.0\\\\x86"
-        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\\\x86"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\\\MSBuild\\Current\\Bin\\amd64"
-        - "C:\\Windows\\Microsoft.NET\\Framework\\v4.0.30319"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\IDE\\"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\Tools\\"
         - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
         - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
@@ -556,10 +431,7 @@ events:
         - "C:\\Users\\Kunal\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\Users\\Kunal\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
         - "C:\\Users\\Kunal\\AppData\\Roaming\\npm"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\IDE\\VC\\Linux\\bin\\ConnectionManagerExe"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\vcpkg"
+        - "C:\\Users\\Kunal\\AppData\\Local\\GitHubDesktop\\bin"
   -
     kind: "find-v1"
     backtrace:
@@ -581,18 +453,6 @@ events:
       - "link"
     candidate_directories:
       - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx86/x86/"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/VC/vcpackages/"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/CommonExtensions/Microsoft/TestWindow/"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/Roslyn/"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Team Tools/DiagnosticsHub/Collector/"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/"
-      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x86/"
-      - "C:/Program Files (x86)/Windows Kits/10/bin/x86/"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/"
-      - "C:/Windows/Microsoft.NET/Framework/v4.0.30319/"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/Tools/"
       - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
       - "C:/Program Files/Common Files/Oracle/Java/javapath/"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
@@ -626,27 +486,12 @@ events:
       - "C:/Program Files/CMake/bin/"
       - "C:/Program Files/Git/cmd/"
       - "C:/Users/Kunal/AppData/Roaming/npm/"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/vcpkg/"
+      - "C:/Users/Kunal/AppData/Local/GitHubDesktop/bin/"
     searched_directories:
       - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/link.com"
     found: "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/link.exe"
     search_context:
       ENV{PATH}:
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX86\\x86"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\IDE\\VC\\VCPackages"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\IDE\\CommonExtensions\\Microsoft\\TestWindow"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\MSBuild\\Current\\bin\\Roslyn"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Team Tools\\DiagnosticsHub\\Collector"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\IDE\\Extensions\\Microsoft\\CodeCoverage.Console"
-        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.26100.0\\\\x86"
-        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\\\x86"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\\\MSBuild\\Current\\Bin\\amd64"
-        - "C:\\Windows\\Microsoft.NET\\Framework\\v4.0.30319"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\IDE\\"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\Tools\\"
         - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
         - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
@@ -684,10 +529,7 @@ events:
         - "C:\\Users\\Kunal\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\Users\\Kunal\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
         - "C:\\Users\\Kunal\\AppData\\Roaming\\npm"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\IDE\\VC\\Linux\\bin\\ConnectionManagerExe"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\vcpkg"
+        - "C:\\Users\\Kunal\\AppData\\Local\\GitHubDesktop\\bin"
   -
     kind: "find-v1"
     backtrace:
@@ -709,18 +551,6 @@ events:
       - "mt"
     candidate_directories:
       - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx86/x86/"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/VC/vcpackages/"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/CommonExtensions/Microsoft/TestWindow/"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/Roslyn/"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Team Tools/DiagnosticsHub/Collector/"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/"
-      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x86/"
-      - "C:/Program Files (x86)/Windows Kits/10/bin/x86/"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/"
-      - "C:/Windows/Microsoft.NET/Framework/v4.0.30319/"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/Tools/"
       - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
       - "C:/Program Files/Common Files/Oracle/Java/javapath/"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
@@ -754,48 +584,116 @@ events:
       - "C:/Program Files/CMake/bin/"
       - "C:/Program Files/Git/cmd/"
       - "C:/Users/Kunal/AppData/Roaming/npm/"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/vcpkg/"
+      - "C:/Users/Kunal/AppData/Local/GitHubDesktop/bin/"
     searched_directories:
       - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/mt.com"
       - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/mt.exe"
       - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/mt"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx86/x86/mt.com"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx86/x86/mt.exe"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx86/x86/mt"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/VC/vcpackages/mt.com"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/VC/vcpackages/mt.exe"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/VC/vcpackages/mt"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/CommonExtensions/Microsoft/TestWindow/mt.com"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/CommonExtensions/Microsoft/TestWindow/mt.exe"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/CommonExtensions/Microsoft/TestWindow/mt"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/Roslyn/mt.com"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/Roslyn/mt.exe"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/Roslyn/mt"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Team Tools/DiagnosticsHub/Collector/mt.com"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Team Tools/DiagnosticsHub/Collector/mt.exe"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Team Tools/DiagnosticsHub/Collector/mt"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/mt.com"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/mt.exe"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/mt"
-      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x86/mt.com"
-    found: "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x86/mt.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/mt.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/mt.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/mt"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/mt.com"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/mt.exe"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/mt"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/mt.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/mt.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/mt"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/mt.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/mt.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/mt"
+      - "C:/Python314/Scripts/mt.com"
+      - "C:/Python314/Scripts/mt.exe"
+      - "C:/Python314/Scripts/mt"
+      - "C:/Python314/mt.com"
+      - "C:/Python314/mt.exe"
+      - "C:/Python314/mt"
+      - "C:/Windows/System32/mt.com"
+      - "C:/Windows/System32/mt.exe"
+      - "C:/Windows/System32/mt"
+      - "C:/Windows/mt.com"
+      - "C:/Windows/mt.exe"
+      - "C:/Windows/mt"
+      - "C:/Windows/System32/wbem/mt.com"
+      - "C:/Windows/System32/wbem/mt.exe"
+      - "C:/Windows/System32/wbem/mt"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/mt.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/mt.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/mt"
+      - "C:/Windows/System32/OpenSSH/mt.com"
+      - "C:/Windows/System32/OpenSSH/mt.exe"
+      - "C:/Windows/System32/OpenSSH/mt"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/mt.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/mt.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/mt"
+      - "C:/MinGW/bin/mt.com"
+      - "C:/MinGW/bin/mt.exe"
+      - "C:/MinGW/bin/mt"
+      - "C:/Users/Kunal/AppData/Local/Programs/Python/Python313/Scripts/mt.com"
+      - "C:/Users/Kunal/AppData/Local/Programs/Python/Python313/Scripts/mt.exe"
+      - "C:/Users/Kunal/AppData/Local/Programs/Python/Python313/Scripts/mt"
+      - "C:/Users/Kunal/AppData/Local/Programs/Python/Python313/mt.com"
+      - "C:/Users/Kunal/AppData/Local/Programs/Python/Python313/mt.exe"
+      - "C:/Users/Kunal/AppData/Local/Programs/Python/Python313/mt"
+      - "C:/Users/Kunal/AppData/Local/Microsoft/WindowsApps/mt.com"
+      - "C:/Users/Kunal/AppData/Local/Microsoft/WindowsApps/mt.exe"
+      - "C:/Users/Kunal/AppData/Local/Microsoft/WindowsApps/mt"
+      - "C:/Users/Kunal/AppData/Local/Programs/Microsoft VS Code/bin/mt.com"
+      - "C:/Users/Kunal/AppData/Local/Programs/Microsoft VS Code/bin/mt.exe"
+      - "C:/Users/Kunal/AppData/Local/Programs/Microsoft VS Code/bin/mt"
+      - "C:/Program Files/HP/OMEN-Broadcast/Common/mt.com"
+      - "C:/Program Files/HP/OMEN-Broadcast/Common/mt.exe"
+      - "C:/Program Files/HP/OMEN-Broadcast/Common/mt"
+      - "C:/Program Files/nodejs/mt.com"
+      - "C:/Program Files/nodejs/mt.exe"
+      - "C:/Program Files/nodejs/mt"
+      - "C:/ProgramData/chocolatey/bin/mt.com"
+      - "C:/ProgramData/chocolatey/bin/mt.exe"
+      - "C:/ProgramData/chocolatey/bin/mt"
+      - "C:/msys64/mingw64/include/mt.com"
+      - "C:/msys64/mingw64/include/mt.exe"
+      - "C:/msys64/mingw64/include/mt"
+      - "C:/msys64/mingw64/include/gtk-4.0/mt.com"
+      - "C:/msys64/mingw64/include/gtk-4.0/mt.exe"
+      - "C:/msys64/mingw64/include/gtk-4.0/mt"
+      - "C:/msys64/mingw64/include/glib-2.0/mt.com"
+      - "C:/msys64/mingw64/include/glib-2.0/mt.exe"
+      - "C:/msys64/mingw64/include/glib-2.0/mt"
+      - "C:/msys64/mingw64/lib/glib-2.0/include/mt.com"
+      - "C:/msys64/mingw64/lib/glib-2.0/include/mt.exe"
+      - "C:/msys64/mingw64/lib/glib-2.0/include/mt"
+      - "C:/Program Files/Java/jdk-25/bin/mt.com"
+      - "C:/Program Files/Java/jdk-25/bin/mt.exe"
+      - "C:/Program Files/Java/jdk-25/bin/mt"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/mt.com"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/mt.exe"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/mt"
+      - "C:/Program Files (x86)/Microsoft SQL Server/160/Tools/Binn/mt.com"
+      - "C:/Program Files (x86)/Microsoft SQL Server/160/Tools/Binn/mt.exe"
+      - "C:/Program Files (x86)/Microsoft SQL Server/160/Tools/Binn/mt"
+      - "C:/Program Files/Microsoft SQL Server/160/Tools/Binn/mt.com"
+      - "C:/Program Files/Microsoft SQL Server/160/Tools/Binn/mt.exe"
+      - "C:/Program Files/Microsoft SQL Server/160/Tools/Binn/mt"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/mt.com"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/mt.exe"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/mt"
+      - "C:/Program Files/Microsoft SQL Server/160/DTS/Binn/mt.com"
+      - "C:/Program Files/Microsoft SQL Server/160/DTS/Binn/mt.exe"
+      - "C:/Program Files/Microsoft SQL Server/160/DTS/Binn/mt"
+      - "C:/Program Files/CMake/bin/mt.com"
+      - "C:/Program Files/CMake/bin/mt.exe"
+      - "C:/Program Files/CMake/bin/mt"
+      - "C:/Program Files/Git/cmd/mt.com"
+      - "C:/Program Files/Git/cmd/mt.exe"
+      - "C:/Program Files/Git/cmd/mt"
+      - "C:/Users/Kunal/AppData/Roaming/npm/mt.com"
+      - "C:/Users/Kunal/AppData/Roaming/npm/mt.exe"
+      - "C:/Users/Kunal/AppData/Roaming/npm/mt"
+      - "C:/Users/Kunal/AppData/Local/GitHubDesktop/bin/mt.com"
+      - "C:/Users/Kunal/AppData/Local/GitHubDesktop/bin/mt.exe"
+      - "C:/Users/Kunal/AppData/Local/GitHubDesktop/bin/mt"
+    found: false
     search_context:
       ENV{PATH}:
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX86\\x86"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\IDE\\VC\\VCPackages"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\IDE\\CommonExtensions\\Microsoft\\TestWindow"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\MSBuild\\Current\\bin\\Roslyn"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Team Tools\\DiagnosticsHub\\Collector"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\IDE\\Extensions\\Microsoft\\CodeCoverage.Console"
-        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.26100.0\\\\x86"
-        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\\\x86"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\\\MSBuild\\Current\\Bin\\amd64"
-        - "C:\\Windows\\Microsoft.NET\\Framework\\v4.0.30319"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\IDE\\"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\Tools\\"
         - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
         - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
@@ -833,10 +731,7 @@ events:
         - "C:\\Users\\Kunal\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\Users\\Kunal\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
         - "C:\\Users\\Kunal\\AppData\\Roaming\\npm"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\IDE\\VC\\Linux\\bin\\ConnectionManagerExe"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\vcpkg"
+        - "C:\\Users\\Kunal\\AppData\\Local\\GitHubDesktop\\bin"
   -
     kind: "find-v1"
     backtrace:
@@ -858,18 +753,6 @@ events:
       - "lib"
     candidate_directories:
       - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx86/x86/"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/VC/vcpackages/"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/CommonExtensions/Microsoft/TestWindow/"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/Roslyn/"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Team Tools/DiagnosticsHub/Collector/"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/"
-      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x86/"
-      - "C:/Program Files (x86)/Windows Kits/10/bin/x86/"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/"
-      - "C:/Windows/Microsoft.NET/Framework/v4.0.30319/"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/Tools/"
       - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
       - "C:/Program Files/Common Files/Oracle/Java/javapath/"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
@@ -903,27 +786,12 @@ events:
       - "C:/Program Files/CMake/bin/"
       - "C:/Program Files/Git/cmd/"
       - "C:/Users/Kunal/AppData/Roaming/npm/"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/vcpkg/"
+      - "C:/Users/Kunal/AppData/Local/GitHubDesktop/bin/"
     searched_directories:
       - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lib.com"
     found: "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lib.exe"
     search_context:
       ENV{PATH}:
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX86\\x86"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\IDE\\VC\\VCPackages"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\IDE\\CommonExtensions\\Microsoft\\TestWindow"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\MSBuild\\Current\\bin\\Roslyn"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Team Tools\\DiagnosticsHub\\Collector"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\IDE\\Extensions\\Microsoft\\CodeCoverage.Console"
-        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.26100.0\\\\x86"
-        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\\\x86"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\\\MSBuild\\Current\\Bin\\amd64"
-        - "C:\\Windows\\Microsoft.NET\\Framework\\v4.0.30319"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\IDE\\"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\Tools\\"
         - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
         - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
@@ -961,10 +829,7 @@ events:
         - "C:\\Users\\Kunal\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\Users\\Kunal\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
         - "C:\\Users\\Kunal\\AppData\\Roaming\\npm"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\IDE\\VC\\Linux\\bin\\ConnectionManagerExe"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\vcpkg"
+        - "C:\\Users\\Kunal\\AppData\\Local\\GitHubDesktop\\bin"
   -
     kind: "find-v1"
     backtrace:
@@ -992,18 +857,6 @@ events:
     found: "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeCXXCompilerId.cpp.in"
     search_context:
       ENV{PATH}:
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX86\\x86"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\IDE\\VC\\VCPackages"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\IDE\\CommonExtensions\\Microsoft\\TestWindow"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\MSBuild\\Current\\bin\\Roslyn"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Team Tools\\DiagnosticsHub\\Collector"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\IDE\\Extensions\\Microsoft\\CodeCoverage.Console"
-        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.26100.0\\\\x86"
-        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\\\x86"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\\\MSBuild\\Current\\Bin\\amd64"
-        - "C:\\Windows\\Microsoft.NET\\Framework\\v4.0.30319"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\IDE\\"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\Tools\\"
         - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
         - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
@@ -1041,18 +894,7 @@ events:
         - "C:\\Users\\Kunal\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\Users\\Kunal\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
         - "C:\\Users\\Kunal\\AppData\\Roaming\\npm"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\IDE\\VC\\Linux\\bin\\ConnectionManagerExe"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\vcpkg"
-      ENV{INCLUDE}:
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\include"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Auxiliary\\VS\\include"
-        - "C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.26100.0\\ucrt"
-        - "C:\\Program Files (x86)\\Windows Kits\\10\\\\include\\10.0.26100.0\\\\um"
-        - "C:\\Program Files (x86)\\Windows Kits\\10\\\\include\\10.0.26100.0\\\\shared"
-        - "C:\\Program Files (x86)\\Windows Kits\\10\\\\include\\10.0.26100.0\\\\winrt"
-        - "C:\\Program Files (x86)\\Windows Kits\\10\\\\include\\10.0.26100.0\\\\cppwinrt"
+        - "C:\\Users\\Kunal\\AppData\\Local\\GitHubDesktop\\bin"
   -
     kind: "message-v1"
     backtrace:
@@ -1069,9 +911,9 @@ events:
       The output was:
       0
       MSBuild version 17.14.40+3e7442088 for .NET Framework
-      Build started 09-02-2026 22:39:17.
+      Build started 11-02-2026 12:52:48.
       
-      Project "C:\\Users\\Kunal\\OneDrive\\Desktop\\GOD_Project\\build\\CMakeFiles\\4.2.3\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
+      Project "C:\\Users\\Kunal\\OneDrive\\Desktop\\GOD_Project\\cpp-project\\build\\CMakeFiles\\4.2.3\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
       PrepareForBuild:
         Creating directory "Debug\\".
         Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
@@ -1084,7 +926,7 @@ events:
         CMakeCXXCompilerId.cpp
       Link:
         C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
-        CompilerIdCXX.vcxproj -> C:\\Users\\Kunal\\OneDrive\\Desktop\\GOD_Project\\build\\CMakeFiles\\4.2.3\\CompilerIdCXX\\CompilerIdCXX.exe
+        CompilerIdCXX.vcxproj -> C:\\Users\\Kunal\\OneDrive\\Desktop\\GOD_Project\\cpp-project\\build\\CMakeFiles\\4.2.3\\CompilerIdCXX\\CompilerIdCXX.exe
       PostBuildEvent:
         for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
         :VCEnd
@@ -1092,13 +934,13 @@ events:
       FinalizeBuildStatus:
         Deleting file "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
         Touching "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
-      Done Building Project "C:\\Users\\Kunal\\OneDrive\\Desktop\\GOD_Project\\build\\CMakeFiles\\4.2.3\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (default targets).
+      Done Building Project "C:\\Users\\Kunal\\OneDrive\\Desktop\\GOD_Project\\cpp-project\\build\\CMakeFiles\\4.2.3\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (default targets).
       
       Build succeeded.
           0 Warning(s)
           0 Error(s)
       
-      Time Elapsed 00:00:01.03
+      Time Elapsed 00:00:00.44
       
       
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
@@ -1106,7 +948,7 @@ events:
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
       
       The CXX compiler identification is MSVC, found in:
-        C:/Users/Kunal/OneDrive/Desktop/GOD_Project/build/CMakeFiles/4.2.3/CompilerIdCXX/CompilerIdCXX.exe
+        C:/Users/Kunal/OneDrive/Desktop/GOD_Project/cpp-project/build/CMakeFiles/4.2.3/CompilerIdCXX/CompilerIdCXX.exe
       
   -
     kind: "find-v1"
@@ -1131,18 +973,6 @@ events:
       - "lld-link"
     candidate_directories:
       - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx86/x86/"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/VC/vcpackages/"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/CommonExtensions/Microsoft/TestWindow/"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/Roslyn/"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Team Tools/DiagnosticsHub/Collector/"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/"
-      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x86/"
-      - "C:/Program Files (x86)/Windows Kits/10/bin/x86/"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/"
-      - "C:/Windows/Microsoft.NET/Framework/v4.0.30319/"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/Tools/"
       - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
       - "C:/Program Files/Common Files/Oracle/Java/javapath/"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
@@ -1176,50 +1006,11 @@ events:
       - "C:/Program Files/CMake/bin/"
       - "C:/Program Files/Git/cmd/"
       - "C:/Users/Kunal/AppData/Roaming/npm/"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/vcpkg/"
+      - "C:/Users/Kunal/AppData/Local/GitHubDesktop/bin/"
     searched_directories:
       - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lld-link.com"
       - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lld-link.exe"
       - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lld-link"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx86/x86/lld-link.com"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx86/x86/lld-link.exe"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx86/x86/lld-link"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/VC/vcpackages/lld-link.com"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/VC/vcpackages/lld-link.exe"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/VC/vcpackages/lld-link"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/CommonExtensions/Microsoft/TestWindow/lld-link.com"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/CommonExtensions/Microsoft/TestWindow/lld-link.exe"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/CommonExtensions/Microsoft/TestWindow/lld-link"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/Roslyn/lld-link.com"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/Roslyn/lld-link.exe"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/Roslyn/lld-link"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Team Tools/DiagnosticsHub/Collector/lld-link.com"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Team Tools/DiagnosticsHub/Collector/lld-link.exe"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Team Tools/DiagnosticsHub/Collector/lld-link"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/lld-link.com"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/lld-link.exe"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/lld-link"
-      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x86/lld-link.com"
-      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x86/lld-link.exe"
-      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x86/lld-link"
-      - "C:/Program Files (x86)/Windows Kits/10/bin/x86/lld-link.com"
-      - "C:/Program Files (x86)/Windows Kits/10/bin/x86/lld-link.exe"
-      - "C:/Program Files (x86)/Windows Kits/10/bin/x86/lld-link"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/lld-link.com"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/lld-link.exe"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/lld-link"
-      - "C:/Windows/Microsoft.NET/Framework/v4.0.30319/lld-link.com"
-      - "C:/Windows/Microsoft.NET/Framework/v4.0.30319/lld-link.exe"
-      - "C:/Windows/Microsoft.NET/Framework/v4.0.30319/lld-link"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/lld-link.com"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/lld-link.exe"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/lld-link"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/Tools/lld-link.com"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/Tools/lld-link.exe"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/Tools/lld-link"
       - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link.com"
       - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link.exe"
       - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link"
@@ -1319,33 +1110,12 @@ events:
       - "C:/Users/Kunal/AppData/Roaming/npm/lld-link.com"
       - "C:/Users/Kunal/AppData/Roaming/npm/lld-link.exe"
       - "C:/Users/Kunal/AppData/Roaming/npm/lld-link"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/lld-link.com"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/lld-link.exe"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/lld-link"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/lld-link.com"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/lld-link.exe"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/lld-link"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/lld-link.com"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/lld-link.exe"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/lld-link"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/vcpkg/lld-link.com"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/vcpkg/lld-link.exe"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/vcpkg/lld-link"
+      - "C:/Users/Kunal/AppData/Local/GitHubDesktop/bin/lld-link.com"
+      - "C:/Users/Kunal/AppData/Local/GitHubDesktop/bin/lld-link.exe"
+      - "C:/Users/Kunal/AppData/Local/GitHubDesktop/bin/lld-link"
     found: false
     search_context:
       ENV{PATH}:
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX86\\x86"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\IDE\\VC\\VCPackages"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\IDE\\CommonExtensions\\Microsoft\\TestWindow"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\MSBuild\\Current\\bin\\Roslyn"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Team Tools\\DiagnosticsHub\\Collector"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\IDE\\Extensions\\Microsoft\\CodeCoverage.Console"
-        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.26100.0\\\\x86"
-        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\\\x86"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\\\MSBuild\\Current\\Bin\\amd64"
-        - "C:\\Windows\\Microsoft.NET\\Framework\\v4.0.30319"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\IDE\\"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\Tools\\"
         - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
         - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
@@ -1383,10 +1153,7 @@ events:
         - "C:\\Users\\Kunal\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\Users\\Kunal\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
         - "C:\\Users\\Kunal\\AppData\\Roaming\\npm"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\IDE\\VC\\Linux\\bin\\ConnectionManagerExe"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\vcpkg"
+        - "C:\\Users\\Kunal\\AppData\\Local\\GitHubDesktop\\bin"
   -
     kind: "find-v1"
     backtrace:
@@ -1410,18 +1177,6 @@ events:
     names:
       - "rc"
     candidate_directories:
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx86/x86/"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/VC/vcpackages/"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/CommonExtensions/Microsoft/TestWindow/"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/Roslyn/"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Team Tools/DiagnosticsHub/Collector/"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/"
-      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x86/"
-      - "C:/Program Files (x86)/Windows Kits/10/bin/x86/"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/"
-      - "C:/Windows/Microsoft.NET/Framework/v4.0.30319/"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/Tools/"
       - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
       - "C:/Program Files/Common Files/Oracle/Java/javapath/"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
@@ -1455,10 +1210,7 @@ events:
       - "C:/Program Files/CMake/bin/"
       - "C:/Program Files/Git/cmd/"
       - "C:/Users/Kunal/AppData/Roaming/npm/"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/vcpkg/"
+      - "C:/Users/Kunal/AppData/Local/GitHubDesktop/bin/"
       - "C:/Program Files/bin/"
       - "C:/Program Files/sbin/"
       - "C:/Program Files/"
@@ -1472,40 +1224,147 @@ events:
       - "C:/Program Files (x86)/GOD_Project/sbin/"
       - "C:/Program Files (x86)/GOD_Project/"
     searched_directories:
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx86/x86/rc.com"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx86/x86/rc.exe"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx86/x86/rc"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/VC/vcpackages/rc.com"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/VC/vcpackages/rc.exe"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/VC/vcpackages/rc"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/CommonExtensions/Microsoft/TestWindow/rc.com"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/CommonExtensions/Microsoft/TestWindow/rc.exe"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/CommonExtensions/Microsoft/TestWindow/rc"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/Roslyn/rc.com"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/Roslyn/rc.exe"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/Roslyn/rc"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Team Tools/DiagnosticsHub/Collector/rc.com"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Team Tools/DiagnosticsHub/Collector/rc.exe"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Team Tools/DiagnosticsHub/Collector/rc"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/rc.com"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/rc.exe"
-      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/rc"
-      - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x86/rc.com"
-    found: "C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x86/rc.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/rc.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/rc.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/rc"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/rc.com"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/rc.exe"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/rc"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/rc.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/rc.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/rc"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/rc.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/rc.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/rc"
+      - "C:/Python314/Scripts/rc.com"
+      - "C:/Python314/Scripts/rc.exe"
+      - "C:/Python314/Scripts/rc"
+      - "C:/Python314/rc.com"
+      - "C:/Python314/rc.exe"
+      - "C:/Python314/rc"
+      - "C:/Windows/System32/rc.com"
+      - "C:/Windows/System32/rc.exe"
+      - "C:/Windows/System32/rc"
+      - "C:/Windows/rc.com"
+      - "C:/Windows/rc.exe"
+      - "C:/Windows/rc"
+      - "C:/Windows/System32/wbem/rc.com"
+      - "C:/Windows/System32/wbem/rc.exe"
+      - "C:/Windows/System32/wbem/rc"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/rc.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/rc.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/rc"
+      - "C:/Windows/System32/OpenSSH/rc.com"
+      - "C:/Windows/System32/OpenSSH/rc.exe"
+      - "C:/Windows/System32/OpenSSH/rc"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/rc.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/rc.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/rc"
+      - "C:/MinGW/bin/rc.com"
+      - "C:/MinGW/bin/rc.exe"
+      - "C:/MinGW/bin/rc"
+      - "C:/Users/Kunal/AppData/Local/Programs/Python/Python313/Scripts/rc.com"
+      - "C:/Users/Kunal/AppData/Local/Programs/Python/Python313/Scripts/rc.exe"
+      - "C:/Users/Kunal/AppData/Local/Programs/Python/Python313/Scripts/rc"
+      - "C:/Users/Kunal/AppData/Local/Programs/Python/Python313/rc.com"
+      - "C:/Users/Kunal/AppData/Local/Programs/Python/Python313/rc.exe"
+      - "C:/Users/Kunal/AppData/Local/Programs/Python/Python313/rc"
+      - "C:/Users/Kunal/AppData/Local/Microsoft/WindowsApps/rc.com"
+      - "C:/Users/Kunal/AppData/Local/Microsoft/WindowsApps/rc.exe"
+      - "C:/Users/Kunal/AppData/Local/Microsoft/WindowsApps/rc"
+      - "C:/Users/Kunal/AppData/Local/Programs/Microsoft VS Code/bin/rc.com"
+      - "C:/Users/Kunal/AppData/Local/Programs/Microsoft VS Code/bin/rc.exe"
+      - "C:/Users/Kunal/AppData/Local/Programs/Microsoft VS Code/bin/rc"
+      - "C:/Program Files/HP/OMEN-Broadcast/Common/rc.com"
+      - "C:/Program Files/HP/OMEN-Broadcast/Common/rc.exe"
+      - "C:/Program Files/HP/OMEN-Broadcast/Common/rc"
+      - "C:/Program Files/nodejs/rc.com"
+      - "C:/Program Files/nodejs/rc.exe"
+      - "C:/Program Files/nodejs/rc"
+      - "C:/ProgramData/chocolatey/bin/rc.com"
+      - "C:/ProgramData/chocolatey/bin/rc.exe"
+      - "C:/ProgramData/chocolatey/bin/rc"
+      - "C:/msys64/mingw64/include/rc.com"
+      - "C:/msys64/mingw64/include/rc.exe"
+      - "C:/msys64/mingw64/include/rc"
+      - "C:/msys64/mingw64/include/gtk-4.0/rc.com"
+      - "C:/msys64/mingw64/include/gtk-4.0/rc.exe"
+      - "C:/msys64/mingw64/include/gtk-4.0/rc"
+      - "C:/msys64/mingw64/include/glib-2.0/rc.com"
+      - "C:/msys64/mingw64/include/glib-2.0/rc.exe"
+      - "C:/msys64/mingw64/include/glib-2.0/rc"
+      - "C:/msys64/mingw64/lib/glib-2.0/include/rc.com"
+      - "C:/msys64/mingw64/lib/glib-2.0/include/rc.exe"
+      - "C:/msys64/mingw64/lib/glib-2.0/include/rc"
+      - "C:/Program Files/Java/jdk-25/bin/rc.com"
+      - "C:/Program Files/Java/jdk-25/bin/rc.exe"
+      - "C:/Program Files/Java/jdk-25/bin/rc"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/rc.com"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/rc.exe"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/rc"
+      - "C:/Program Files (x86)/Microsoft SQL Server/160/Tools/Binn/rc.com"
+      - "C:/Program Files (x86)/Microsoft SQL Server/160/Tools/Binn/rc.exe"
+      - "C:/Program Files (x86)/Microsoft SQL Server/160/Tools/Binn/rc"
+      - "C:/Program Files/Microsoft SQL Server/160/Tools/Binn/rc.com"
+      - "C:/Program Files/Microsoft SQL Server/160/Tools/Binn/rc.exe"
+      - "C:/Program Files/Microsoft SQL Server/160/Tools/Binn/rc"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/rc.com"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/rc.exe"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/rc"
+      - "C:/Program Files/Microsoft SQL Server/160/DTS/Binn/rc.com"
+      - "C:/Program Files/Microsoft SQL Server/160/DTS/Binn/rc.exe"
+      - "C:/Program Files/Microsoft SQL Server/160/DTS/Binn/rc"
+      - "C:/Program Files/CMake/bin/rc.com"
+      - "C:/Program Files/CMake/bin/rc.exe"
+      - "C:/Program Files/CMake/bin/rc"
+      - "C:/Program Files/Git/cmd/rc.com"
+      - "C:/Program Files/Git/cmd/rc.exe"
+      - "C:/Program Files/Git/cmd/rc"
+      - "C:/Users/Kunal/AppData/Roaming/npm/rc.com"
+      - "C:/Users/Kunal/AppData/Roaming/npm/rc.exe"
+      - "C:/Users/Kunal/AppData/Roaming/npm/rc"
+      - "C:/Users/Kunal/AppData/Local/GitHubDesktop/bin/rc.com"
+      - "C:/Users/Kunal/AppData/Local/GitHubDesktop/bin/rc.exe"
+      - "C:/Users/Kunal/AppData/Local/GitHubDesktop/bin/rc"
+      - "C:/Program Files/bin/rc.com"
+      - "C:/Program Files/bin/rc.exe"
+      - "C:/Program Files/bin/rc"
+      - "C:/Program Files/sbin/rc.com"
+      - "C:/Program Files/sbin/rc.exe"
+      - "C:/Program Files/sbin/rc"
+      - "C:/Program Files/rc.com"
+      - "C:/Program Files/rc.exe"
+      - "C:/Program Files/rc"
+      - "C:/Program Files (x86)/bin/rc.com"
+      - "C:/Program Files (x86)/bin/rc.exe"
+      - "C:/Program Files (x86)/bin/rc"
+      - "C:/Program Files (x86)/sbin/rc.com"
+      - "C:/Program Files (x86)/sbin/rc.exe"
+      - "C:/Program Files (x86)/sbin/rc"
+      - "C:/Program Files (x86)/rc.com"
+      - "C:/Program Files (x86)/rc.exe"
+      - "C:/Program Files (x86)/rc"
+      - "C:/Program Files/CMake/bin/rc.com"
+      - "C:/Program Files/CMake/bin/rc.exe"
+      - "C:/Program Files/CMake/bin/rc"
+      - "C:/Program Files/CMake/sbin/rc.com"
+      - "C:/Program Files/CMake/sbin/rc.exe"
+      - "C:/Program Files/CMake/sbin/rc"
+      - "C:/Program Files/CMake/rc.com"
+      - "C:/Program Files/CMake/rc.exe"
+      - "C:/Program Files/CMake/rc"
+      - "C:/Program Files (x86)/GOD_Project/bin/rc.com"
+      - "C:/Program Files (x86)/GOD_Project/bin/rc.exe"
+      - "C:/Program Files (x86)/GOD_Project/bin/rc"
+      - "C:/Program Files (x86)/GOD_Project/sbin/rc.com"
+      - "C:/Program Files (x86)/GOD_Project/sbin/rc.exe"
+      - "C:/Program Files (x86)/GOD_Project/sbin/rc"
+      - "C:/Program Files (x86)/GOD_Project/rc.com"
+      - "C:/Program Files (x86)/GOD_Project/rc.exe"
+      - "C:/Program Files (x86)/GOD_Project/rc"
+    found: false
     search_context:
       ENV{PATH}:
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX86\\x86"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\IDE\\VC\\VCPackages"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\IDE\\CommonExtensions\\Microsoft\\TestWindow"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\MSBuild\\Current\\bin\\Roslyn"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Team Tools\\DiagnosticsHub\\Collector"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\IDE\\Extensions\\Microsoft\\CodeCoverage.Console"
-        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.26100.0\\\\x86"
-        - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\\\x86"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\\\MSBuild\\Current\\Bin\\amd64"
-        - "C:\\Windows\\Microsoft.NET\\Framework\\v4.0.30319"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\IDE\\"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\Tools\\"
         - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
         - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
@@ -1543,10 +1402,7 @@ events:
         - "C:\\Users\\Kunal\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\Users\\Kunal\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
         - "C:\\Users\\Kunal\\AppData\\Roaming\\npm"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\IDE\\VC\\Linux\\bin\\ConnectionManagerExe"
-        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\vcpkg"
+        - "C:\\Users\\Kunal\\AppData\\Local\\GitHubDesktop\\bin"
       CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/GOD_Project"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "C:/Program Files"
@@ -1562,8 +1418,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "C:/Users/Kunal/OneDrive/Desktop/GOD_Project/build/CMakeFiles/CMakeScratch/TryCompile-53qy1d"
-      binary: "C:/Users/Kunal/OneDrive/Desktop/GOD_Project/build/CMakeFiles/CMakeScratch/TryCompile-53qy1d"
+      source: "C:/Users/Kunal/OneDrive/Desktop/GOD_Project/cpp-project/build/CMakeFiles/CMakeScratch/TryCompile-j4pc0t"
+      binary: "C:/Users/Kunal/OneDrive/Desktop/GOD_Project/cpp-project/build/CMakeFiles/CMakeScratch/TryCompile-j4pc0t"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
       CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
@@ -1572,39 +1428,39 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/Kunal/OneDrive/Desktop/GOD_Project/build/CMakeFiles/CMakeScratch/TryCompile-53qy1d'
+        Change Dir: 'C:/Users/Kunal/OneDrive/Desktop/GOD_Project/cpp-project/build/CMakeFiles/CMakeScratch/TryCompile-j4pc0t'
         
-        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_0c1de.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_0728b.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.14.40+3e7442088 for .NET Framework
-        Build started 09-02-2026 22:39:19.
+        Build started 11-02-2026 12:52:49.
         
-        Project "C:\\Users\\Kunal\\OneDrive\\Desktop\\GOD_Project\\build\\CMakeFiles\\CMakeScratch\\TryCompile-53qy1d\\cmTC_0c1de.vcxproj" on node 1 (default targets).
+        Project "C:\\Users\\Kunal\\OneDrive\\Desktop\\GOD_Project\\cpp-project\\build\\CMakeFiles\\CMakeScratch\\TryCompile-j4pc0t\\cmTC_0728b.vcxproj" on node 1 (default targets).
         PrepareForBuild:
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "C:\\Users\\Kunal\\OneDrive\\Desktop\\GOD_Project\\build\\CMakeFiles\\CMakeScratch\\TryCompile-53qy1d\\Debug\\".
-          Creating directory "cmTC_0c1de.dir\\Debug\\cmTC_0c1de.tlog\\".
+          Creating directory "C:\\Users\\Kunal\\OneDrive\\Desktop\\GOD_Project\\cpp-project\\build\\CMakeFiles\\CMakeScratch\\TryCompile-j4pc0t\\Debug\\".
+          Creating directory "cmTC_0728b.dir\\Debug\\cmTC_0728b.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_0c1de.dir\\Debug\\cmTC_0c1de.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_0c1de.dir\\Debug\\cmTC_0c1de.tlog\\unsuccessfulbuild".
+          Creating "cmTC_0728b.dir\\Debug\\cmTC_0728b.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_0728b.dir\\Debug\\cmTC_0728b.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_0c1de.dir\\Debug\\\\" /Fd"cmTC_0c1de.dir\\Debug\\vc143.pdb" /external:W1 /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCCompilerABI.c"
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_0728b.dir\\Debug\\\\" /Fd"cmTC_0728b.dir\\Debug\\vc143.pdb" /external:W1 /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCCompilerABI.c"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35222 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_0c1de.dir\\Debug\\\\" /Fd"cmTC_0c1de.dir\\Debug\\vc143.pdb" /external:W1 /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCCompilerABI.c"
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_0728b.dir\\Debug\\\\" /Fd"cmTC_0728b.dir\\Debug\\vc143.pdb" /external:W1 /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCCompilerABI.c"
           CMakeCCompilerABI.c
         Link:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\Kunal\\OneDrive\\Desktop\\GOD_Project\\build\\CMakeFiles\\CMakeScratch\\TryCompile-53qy1d\\Debug\\cmTC_0c1de.exe" /INCREMENTAL /ILK:"cmTC_0c1de.dir\\Debug\\cmTC_0c1de.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Kunal/OneDrive/Desktop/GOD_Project/build/CMakeFiles/CMakeScratch/TryCompile-53qy1d/Debug/cmTC_0c1de.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/Kunal/OneDrive/Desktop/GOD_Project/build/CMakeFiles/CMakeScratch/TryCompile-53qy1d/Debug/cmTC_0c1de.lib" /MACHINE:X64  /machine:x64 cmTC_0c1de.dir\\Debug\\CMakeCCompilerABI.obj
-          cmTC_0c1de.vcxproj -> C:\\Users\\Kunal\\OneDrive\\Desktop\\GOD_Project\\build\\CMakeFiles\\CMakeScratch\\TryCompile-53qy1d\\Debug\\cmTC_0c1de.exe
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\Kunal\\OneDrive\\Desktop\\GOD_Project\\cpp-project\\build\\CMakeFiles\\CMakeScratch\\TryCompile-j4pc0t\\Debug\\cmTC_0728b.exe" /INCREMENTAL /ILK:"cmTC_0728b.dir\\Debug\\cmTC_0728b.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Kunal/OneDrive/Desktop/GOD_Project/cpp-project/build/CMakeFiles/CMakeScratch/TryCompile-j4pc0t/Debug/cmTC_0728b.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/Kunal/OneDrive/Desktop/GOD_Project/cpp-project/build/CMakeFiles/CMakeScratch/TryCompile-j4pc0t/Debug/cmTC_0728b.lib" /MACHINE:X64  /machine:x64 cmTC_0728b.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_0728b.vcxproj -> C:\\Users\\Kunal\\OneDrive\\Desktop\\GOD_Project\\cpp-project\\build\\CMakeFiles\\CMakeScratch\\TryCompile-j4pc0t\\Debug\\cmTC_0728b.exe
         FinalizeBuildStatus:
-          Deleting file "cmTC_0c1de.dir\\Debug\\cmTC_0c1de.tlog\\unsuccessfulbuild".
-          Touching "cmTC_0c1de.dir\\Debug\\cmTC_0c1de.tlog\\cmTC_0c1de.lastbuildstate".
-        Done Building Project "C:\\Users\\Kunal\\OneDrive\\Desktop\\GOD_Project\\build\\CMakeFiles\\CMakeScratch\\TryCompile-53qy1d\\cmTC_0c1de.vcxproj" (default targets).
+          Deleting file "cmTC_0728b.dir\\Debug\\cmTC_0728b.tlog\\unsuccessfulbuild".
+          Touching "cmTC_0728b.dir\\Debug\\cmTC_0728b.tlog\\cmTC_0728b.lastbuildstate".
+        Done Building Project "C:\\Users\\Kunal\\OneDrive\\Desktop\\GOD_Project\\cpp-project\\build\\CMakeFiles\\CMakeScratch\\TryCompile-j4pc0t\\cmTC_0728b.vcxproj" (default targets).
         
         Build succeeded.
             0 Warning(s)
             0 Error(s)
         
-        Time Elapsed 00:00:00.98
+        Time Elapsed 00:00:00.38
         
       exitCode: 0
   -
@@ -1644,8 +1500,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "C:/Users/Kunal/OneDrive/Desktop/GOD_Project/build/CMakeFiles/CMakeScratch/TryCompile-95t8ts"
-      binary: "C:/Users/Kunal/OneDrive/Desktop/GOD_Project/build/CMakeFiles/CMakeScratch/TryCompile-95t8ts"
+      source: "C:/Users/Kunal/OneDrive/Desktop/GOD_Project/cpp-project/build/CMakeFiles/CMakeScratch/TryCompile-z4y15b"
+      binary: "C:/Users/Kunal/OneDrive/Desktop/GOD_Project/cpp-project/build/CMakeFiles/CMakeScratch/TryCompile-z4y15b"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
@@ -1655,39 +1511,39 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/Kunal/OneDrive/Desktop/GOD_Project/build/CMakeFiles/CMakeScratch/TryCompile-95t8ts'
+        Change Dir: 'C:/Users/Kunal/OneDrive/Desktop/GOD_Project/cpp-project/build/CMakeFiles/CMakeScratch/TryCompile-z4y15b'
         
-        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_09aa0.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_8eb7a.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.14.40+3e7442088 for .NET Framework
-        Build started 09-02-2026 22:39:21.
+        Build started 11-02-2026 12:52:50.
         
-        Project "C:\\Users\\Kunal\\OneDrive\\Desktop\\GOD_Project\\build\\CMakeFiles\\CMakeScratch\\TryCompile-95t8ts\\cmTC_09aa0.vcxproj" on node 1 (default targets).
+        Project "C:\\Users\\Kunal\\OneDrive\\Desktop\\GOD_Project\\cpp-project\\build\\CMakeFiles\\CMakeScratch\\TryCompile-z4y15b\\cmTC_8eb7a.vcxproj" on node 1 (default targets).
         PrepareForBuild:
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "C:\\Users\\Kunal\\OneDrive\\Desktop\\GOD_Project\\build\\CMakeFiles\\CMakeScratch\\TryCompile-95t8ts\\Debug\\".
-          Creating directory "cmTC_09aa0.dir\\Debug\\cmTC_09aa0.tlog\\".
+          Creating directory "C:\\Users\\Kunal\\OneDrive\\Desktop\\GOD_Project\\cpp-project\\build\\CMakeFiles\\CMakeScratch\\TryCompile-z4y15b\\Debug\\".
+          Creating directory "cmTC_8eb7a.dir\\Debug\\cmTC_8eb7a.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_09aa0.dir\\Debug\\cmTC_09aa0.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_09aa0.dir\\Debug\\cmTC_09aa0.tlog\\unsuccessfulbuild".
+          Creating "cmTC_8eb7a.dir\\Debug\\cmTC_8eb7a.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_8eb7a.dir\\Debug\\cmTC_8eb7a.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_09aa0.dir\\Debug\\\\" /Fd"cmTC_09aa0.dir\\Debug\\vc143.pdb" /external:W1 /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp"
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_8eb7a.dir\\Debug\\\\" /Fd"cmTC_8eb7a.dir\\Debug\\vc143.pdb" /external:W1 /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35222 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_09aa0.dir\\Debug\\\\" /Fd"cmTC_09aa0.dir\\Debug\\vc143.pdb" /external:W1 /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp"
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_8eb7a.dir\\Debug\\\\" /Fd"cmTC_8eb7a.dir\\Debug\\vc143.pdb" /external:W1 /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp"
           CMakeCXXCompilerABI.cpp
         Link:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\Kunal\\OneDrive\\Desktop\\GOD_Project\\build\\CMakeFiles\\CMakeScratch\\TryCompile-95t8ts\\Debug\\cmTC_09aa0.exe" /INCREMENTAL /ILK:"cmTC_09aa0.dir\\Debug\\cmTC_09aa0.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Kunal/OneDrive/Desktop/GOD_Project/build/CMakeFiles/CMakeScratch/TryCompile-95t8ts/Debug/cmTC_09aa0.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/Kunal/OneDrive/Desktop/GOD_Project/build/CMakeFiles/CMakeScratch/TryCompile-95t8ts/Debug/cmTC_09aa0.lib" /MACHINE:X64  /machine:x64 cmTC_09aa0.dir\\Debug\\CMakeCXXCompilerABI.obj
-          cmTC_09aa0.vcxproj -> C:\\Users\\Kunal\\OneDrive\\Desktop\\GOD_Project\\build\\CMakeFiles\\CMakeScratch\\TryCompile-95t8ts\\Debug\\cmTC_09aa0.exe
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\Kunal\\OneDrive\\Desktop\\GOD_Project\\cpp-project\\build\\CMakeFiles\\CMakeScratch\\TryCompile-z4y15b\\Debug\\cmTC_8eb7a.exe" /INCREMENTAL /ILK:"cmTC_8eb7a.dir\\Debug\\cmTC_8eb7a.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Kunal/OneDrive/Desktop/GOD_Project/cpp-project/build/CMakeFiles/CMakeScratch/TryCompile-z4y15b/Debug/cmTC_8eb7a.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/Kunal/OneDrive/Desktop/GOD_Project/cpp-project/build/CMakeFiles/CMakeScratch/TryCompile-z4y15b/Debug/cmTC_8eb7a.lib" /MACHINE:X64  /machine:x64 cmTC_8eb7a.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_8eb7a.vcxproj -> C:\\Users\\Kunal\\OneDrive\\Desktop\\GOD_Project\\cpp-project\\build\\CMakeFiles\\CMakeScratch\\TryCompile-z4y15b\\Debug\\cmTC_8eb7a.exe
         FinalizeBuildStatus:
-          Deleting file "cmTC_09aa0.dir\\Debug\\cmTC_09aa0.tlog\\unsuccessfulbuild".
-          Touching "cmTC_09aa0.dir\\Debug\\cmTC_09aa0.tlog\\cmTC_09aa0.lastbuildstate".
-        Done Building Project "C:\\Users\\Kunal\\OneDrive\\Desktop\\GOD_Project\\build\\CMakeFiles\\CMakeScratch\\TryCompile-95t8ts\\cmTC_09aa0.vcxproj" (default targets).
+          Deleting file "cmTC_8eb7a.dir\\Debug\\cmTC_8eb7a.tlog\\unsuccessfulbuild".
+          Touching "cmTC_8eb7a.dir\\Debug\\cmTC_8eb7a.tlog\\cmTC_8eb7a.lastbuildstate".
+        Done Building Project "C:\\Users\\Kunal\\OneDrive\\Desktop\\GOD_Project\\cpp-project\\build\\CMakeFiles\\CMakeScratch\\TryCompile-z4y15b\\cmTC_8eb7a.vcxproj" (default targets).
         
         Build succeeded.
             0 Warning(s)
             0 Error(s)
         
-        Time Elapsed 00:00:00.97
+        Time Elapsed 00:00:00.37
         
       exitCode: 0
   -

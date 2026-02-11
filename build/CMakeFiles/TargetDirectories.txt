@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 C:/Users/Kunal/OneDrive/Desktop/GOD_Project/build/CMakeFiles/test_adam.dir
 C:/Users/Kunal/OneDrive/Desktop/GOD_Project/build/CMakeFiles/ALL_BUILD.dir
 C:/Users/Kunal/OneDrive/Desktop/GOD_Project/build/CMakeFiles/ZERO_CHECK.dir
@@ -6,3 +7,15 @@ C:/Users/Kunal/OneDrive/Desktop/GOD_Project/build/autodiff/CMakeFiles/autodiff.d
 C:/Users/Kunal/OneDrive/Desktop/GOD_Project/build/layers/CMakeFiles/layers.dir
 C:/Users/Kunal/OneDrive/Desktop/GOD_Project/build/trainer/CMakeFiles/trainer.dir
 C:/Users/Kunal/OneDrive/Desktop/GOD_Project/build/engine/CMakeFiles/engine.dir
+=======
+C:/Users/Kunal/OneDrive/Desktop/GOD_Project/cpp-project/build/CMakeFiles/test_bce.dir
+C:/Users/Kunal/OneDrive/Desktop/GOD_Project/cpp-project/build/CMakeFiles/test_log.dir
+C:/Users/Kunal/OneDrive/Desktop/GOD_Project/cpp-project/build/CMakeFiles/test_softmax_ce.dir
+C:/Users/Kunal/OneDrive/Desktop/GOD_Project/cpp-project/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/Kunal/OneDrive/Desktop/GOD_Project/cpp-project/build/CMakeFiles/ZERO_CHECK.dir
+C:/Users/Kunal/OneDrive/Desktop/GOD_Project/cpp-project/build/tensor/CMakeFiles/tensor.dir
+C:/Users/Kunal/OneDrive/Desktop/GOD_Project/cpp-project/build/autodiff/CMakeFiles/autodiff.dir
+C:/Users/Kunal/OneDrive/Desktop/GOD_Project/cpp-project/build/layers/CMakeFiles/layers.dir
+C:/Users/Kunal/OneDrive/Desktop/GOD_Project/cpp-project/build/trainer/CMakeFiles/trainer.dir
+C:/Users/Kunal/OneDrive/Desktop/GOD_Project/cpp-project/build/engine/CMakeFiles/engine.dir
+>>>>>>> Stashed changes
